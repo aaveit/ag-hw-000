@@ -42,11 +42,7 @@
         
     }
     
-<<<<<<< HEAD
     NSString *greeting = [[NSString alloc] initWithFormat:@"How are you doing, %@?", nameString];
-=======
-    NSString *greeting = [[NSString alloc] initWithFormat:@"Where is my code, %@?", nameString];
->>>>>>> gstest
     
     self.label.text = greeting;
     
