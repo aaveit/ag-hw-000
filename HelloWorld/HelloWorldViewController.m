@@ -3,6 +3,7 @@
 //  HelloWorld
 //
 //  Created by Grant Summers on 2/13/13.
+//  Updated by Grant Summers on 2/24/13
 //  Copyright (c) 2013 Grant Summers. All rights reserved.
 //
 
@@ -41,7 +42,11 @@
         
     }
     
+<<<<<<< HEAD
     NSString *greeting = [[NSString alloc] initWithFormat:@"How are you doing, %@?", nameString];
+=======
+    NSString *greeting = [[NSString alloc] initWithFormat:@"Where is my code, %@?", nameString];
+>>>>>>> gstest
     
     self.label.text = greeting;
     
